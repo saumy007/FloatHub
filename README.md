@@ -24,12 +24,14 @@ The vision is to create a browser companion similar to the productivity experien
 
 ---
 
+
 # ✨ Features
 
 ## Current Features
-
+* 🎈 Easy to Use
+* 🎈 Points to chat.com in Incognito Mode
 * 🎈 Floating browser button
-* 🖱️ Draggable floating button
+* 🖱️ Draggable floating button (need to add this feature)
 * 💾 Persistent position using Chrome Storage
 * ⚡ Opens websites from the floating button
 * 🕶️ Launches websites in Incognito Mode
