@@ -22,7 +22,19 @@ if (window.__floatingBrowserInjected) {
 
 
     ball.id = "floating-ball";
-    ball.textContent = "😀";
+    const img = document.createElement("img");
+
+img.src = chrome.runtime.getURL("icons/bw_icon.png");
+console.log(chrome.runtime.getURL("icons/color_icon.png"));
+
+img.onload = () => console.log("✅ Image loaded");
+img.alt = "FloatHub";
+
+img.style.width = "100%";
+img.style.height = "100%";
+img.style.pointerEvents = "none";
+
+ball.appendChild(img);
     ball.setAttribute("aria-label", "Floating browser button");
     
     ball.style.position = "fixed";
@@ -30,7 +42,7 @@ if (window.__floatingBrowserInjected) {
     ball.style.right = "24px";
     ball.style.width = "56px";
     ball.style.height = "56px";
-    ball.style.background = "#ff4d4f";
+    ball.style.background = "#ffffff";
     ball.style.color = "white";
     ball.style.border = "2px solid white";
     ball.style.borderRadius = "50%";
