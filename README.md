@@ -265,6 +265,116 @@ This project is licensed under the MIT License.
 
 ---
 
+## ▶️ Running FloatHub in Your Browser
+
+Follow these steps to run FloatHub locally in Google Chrome.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/yourusername/FloatHub.git
+cd FloatHub
+```
+
+Or download the project as a ZIP file and extract it.
+
+---
+
+### 2. Open the Chrome Extensions page
+
+Open Chrome and navigate to:
+
+```
+chrome://extensions
+```
+
+---
+
+### 3. Enable Developer Mode
+
+In the top-right corner of the Extensions page, enable:
+
+```
+Developer mode
+```
+
+---
+
+### 4. Load the extension
+
+Click:
+
+```
+Load unpacked
+```
+
+Then select the root folder of the project (the folder containing `manifest.json`).
+
+---
+
+### 5. Verify the extension
+
+Once loaded successfully, you should see **FloatHub** in your list of installed extensions.
+
+If there are any errors, click **Errors** on the extension card to view the details.
+
+---
+
+### 6. Open any website
+
+Visit any webpage, for example:
+
+* https://www.google.com
+* https://github.com
+* https://chat.com
+
+A floating **FloatHub** button will appear in the bottom-right corner of the page.
+
+---
+
+### 7. Launch the popup
+
+Click the floating button.
+
+FloatHub will open **chat.com** in a small popup/incognito window, allowing you to quickly ask questions without creating another browser tab.
+
+---
+
+### 8. Making changes during development
+
+Whenever you modify the extension code:
+
+1. Save your files.
+2. Open:
+
+```
+chrome://extensions
+```
+
+3. Click **Reload** on the FloatHub extension.
+4. Refresh the webpage.
+
+Your latest changes will now be applied.
+
+---
+
+### 9. Troubleshooting
+
+If the floating button does not appear:
+
+* Make sure the extension is enabled.
+* Reload the extension from `chrome://extensions`.
+* Refresh the current webpage.
+* Open the browser Developer Tools (`F12`) and check the **Console** for any errors.
+* Open the extension's **Service Worker** from `chrome://extensions` to inspect background logs.
+
+---
+
+### You're all set! 🚀
+
+FloatHub is now running in your browser and ready to use.
+
+
 # 👨‍💻 Author
 
 **Saumy Sharma**
