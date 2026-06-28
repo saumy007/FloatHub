@@ -1,9 +1,9 @@
 //content.js
 
-console.log("CONTENT SCRIPT STARTED");
+//console.log("CONTENT SCRIPT STARTED");
 
 if (window.__floatingBrowserInjected) {
-  console.log("Ball already injected");
+  //console.log("Ball already injected");
 } else {
   window.__floatingBrowserInjected = true;
 
@@ -25,7 +25,7 @@ if (window.__floatingBrowserInjected) {
     const img = document.createElement("img");
 
 img.src = chrome.runtime.getURL("icons/bw_icon.png");
-console.log(chrome.runtime.getURL("icons/color_icon.png"));
+//console.log(chrome.runtime.getURL("icons/color_icon.png"));
 
 img.onload = () => console.log("✅ Image loaded");
 img.alt = "FloatHub";
@@ -57,7 +57,7 @@ ball.appendChild(img);
     ball.style.pointerEvents = "auto";
 
     container.appendChild(ball);
-    console.log("Ball appended");
+    //console.log("Ball appended");
   };
   
 

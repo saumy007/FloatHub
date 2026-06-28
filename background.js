@@ -1,9 +1,9 @@
 
-console.log("Background Loaded");
+//console.log("Background Loaded");
 
 chrome.runtime.onMessage.addListener((message, sender) => {
 
-    console.log("Received message:", message);
+    //console.log("Received message:", message);
 
     if (message.action === "openIncognito") {
 
@@ -31,9 +31,9 @@ chrome.runtime.onMessage.addListener((message, sender) => {
                 },
                 (createdWindow) => {
                     if (chrome.runtime.lastError) {
-                        console.error(chrome.runtime.lastError.message);
+                        //console.error(chrome.runtime.lastError.message);
                     } else {
-                        console.log("Popup created:", createdWindow);
+                       // console.log("Popup created:", createdWindow);
                     }
                 }
             );
