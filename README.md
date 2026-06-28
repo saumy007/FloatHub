@@ -4,7 +4,7 @@
 
 ## What problem am I solving here?
 
-I was tired of opening a ChatGPT tab every time I was working on something. For example, if I needed to know the meaning of a word, I had to switch to another tab and start a new chat on ChatGPT. That made no sense because my browser was already full of hundreds of tabs.
+I was tired of opening a ChatGPT tab every time I was working on something. For example, if I needed to know the meaning of a word or just a quick git command maybe or perhaps any general information, I had to switch to another tab and start a new chat on ChatGPT. That made no sense because my browser was already full of hundreds of tabs.
 
 I got tired of opening new tabs just for a quick chat with GPT. So, I made this extension. With just one click, I can open a small browser window running ChatGPT, search for my query, get my answer, and continue working without creating another tab.
 
